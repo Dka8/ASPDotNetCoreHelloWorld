@@ -6,10 +6,10 @@ build:
             name: restore
             code: |
                 dotnet restore
-		- script:
-			name: build
-			code: |
-			    dotnet build
+        - script:
+            name: build
+            code: |
+                dotnet build
         - script:
             name: publish
             code: |
